@@ -12,6 +12,25 @@ except ImportError:
     print('Interactive iPython tools will not work without IPython.display \
           and ipywidgets installed.')
 
+__all__ = ["free_response",
+           "phase_plot",
+           "phase_plot_i",
+           "time_plot",
+           "time_plot_i",
+           "rk4",
+           "euler"
+           "analytical",
+           "forced_analytical",
+           "response",
+           "forced_response",
+           "steady_state_response",
+           "frfplot",
+           "transmissibility",
+           "step_response",
+           "impulse_response",
+           "response_spectrum",
+           "rotating_unbalance"]
+
 
 def in_ipynb():
     try:
